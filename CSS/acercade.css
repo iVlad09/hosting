@@ -1,0 +1,59 @@
+body{
+      margin:0;
+      font-family: "Poppins", Arial, sans-serif;
+      background: linear-gradient(135deg, #6dd5ed, #2193b0);
+      color:#2c2c2c;
+      padding:0;
+    }
+
+    header{
+      text-align:center;
+      padding:40px 20px;
+    }
+
+    h1{
+      margin:0;
+      font-size:2.6rem;
+      font-weight:700;
+      color:#222;
+      text-shadow: 2px 2px rgba(255,255,255,0.4);
+    }
+
+    .card{
+      background:white;
+      max-width:900px;
+      margin:0 auto 40px auto;
+      border-radius:18px;
+      padding:30px;
+      box-shadow:0 12px 30px rgba(0,0,0,0.15);
+      animation: pop 0.7s ease;
+    }
+
+    @keyframes pop {
+      from { opacity:0; transform:scale(.9); }
+      to   { opacity:1; transform:scale(1); }
+    }
+
+    p{
+      font-size:1.15rem;
+      line-height:1.6;
+    }
+
+    .video-box{
+      margin-top:20px;
+      text-align:center;
+    }
+
+    video, iframe{
+      width:100%;
+      max-width:560px;
+      border-radius:14px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      font-size:.9rem;
+      opacity:.7;
+    }
